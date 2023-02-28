@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -6,7 +8,8 @@ public class Main {
         // создаем массив бук с 5 элементами
         // Написать методы для работы в этом массиве ( Добавить книгу в свободную ячейку в массиве
         // и напечатать в консоль в формате “Stephen King: The Stand: 1978”
-        Book[] books = new Book[4];
+        Book[] books = new Book[5];
+        System.out.println(Arrays.toString(books));
 
 
     }
