@@ -22,6 +22,5 @@ public class Main {
         Book five = new Book("Лев Николаевич Толстой", "Война и мир", 1867);
         toBook(five);
         toBook(four);
-
              }
 }
